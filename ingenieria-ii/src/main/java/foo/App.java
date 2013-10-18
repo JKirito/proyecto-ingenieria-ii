@@ -14,4 +14,9 @@ public class App
     public boolean isVerdad(){
     	return true;
     }
+    
+    public int devolverDoble(Integer n){
+    	return n*2-5;
+    }
+    
 }
