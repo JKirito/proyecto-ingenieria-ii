@@ -10,7 +10,10 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-    /**
+    
+	App ej= new App();
+
+	/**
      * Create the test case
      *
      * @param testName name of the test case
@@ -35,10 +38,15 @@ public class AppTest
     {
         assertTrue( true );
     }
-    public void testVerdadError(){
-    	App ej= new App();
+    public void testIsVerdadOk(){
     	
     	boolean actual= ej.isVerdad(); 
-    	assertEquals(false, actual);
+    	assertEquals(true, actual);
+    }
+    
+    public void testDevolverDobleError(){
+    	
+    	int actual = ej.devolverDoble(50); 
+    	assertEquals(100, actual);
     }
 }
