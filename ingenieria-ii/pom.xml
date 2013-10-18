@@ -21,27 +21,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.5.6</version>
-	</dependency>
-	<dependency>
-            <groupId>com.sun</groupId>
-            <artifactId>tools</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>C:/Program Files (x86)/Java/jre7/lib/tools.jar</systemPath>
-    </dependency> 
+     <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.13</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies> 
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
   <ciManagement>
   	<url>http://localhost:8080/hudson/</url>
   </ciManagement>
