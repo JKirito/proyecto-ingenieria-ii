@@ -1,0 +1,1 @@
+proyecto de prueba para utilizar maven, integracion continua (Hudson) y Git
